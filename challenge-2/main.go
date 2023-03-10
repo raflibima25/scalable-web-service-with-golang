@@ -16,7 +16,7 @@ func main() {
 				if i%2 == 1 {
 					continue
 				}
-				fmt.Printf("character %U '%c' starts at byte position %d \n", v, v, i)
+				fmt.Printf("character %#U starts at byte position %d \n", v, i)
 			}
 			continue
 		}
