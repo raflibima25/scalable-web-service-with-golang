@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"strconv"
 )
 
 func main() {
@@ -41,8 +40,7 @@ func main() {
 	fmt.Printf("%X \n", "F")
 
 	// menampilkan unicode karakter Я : U+042F
-	x, _ := strconv.ParseInt("042F", 16, 64)
-	fmt.Printf("%U \n", x)
+	fmt.Println("\u042F")
 
 	// menampilkan float : 123.456000
 	fmt.Printf("%f \n", 123.456000)
