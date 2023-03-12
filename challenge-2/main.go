@@ -11,7 +11,7 @@ func main() {
 
 	for j := 0; j <= 10; j++ {
 		if j == 5 {
-			str := "CAPABLECANYOU"
+			str := "СAАAШLАCРNВOО"
 			for i, v := range str {
 				if i%2 == 1 {
 					continue
