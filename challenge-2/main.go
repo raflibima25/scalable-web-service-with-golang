@@ -22,4 +22,20 @@ func main() {
 		}
 		fmt.Println("Nilai j = ", j)
 	}
+
+	// another ver
+	/*
+		for j := 0; j <= 10: j++ {
+			if j == 5 {
+				teks := []rune('С','А','Ш','А','Р','В','О')
+				for indeks := 0; indeks < len(teks); indeks++ {
+					char := teks[indeks]
+					fmt.Printf("character %U '%s' start at byte position %d \n", char, string(char), indeks*2)
+				}
+			} else {
+				fmt.Println("Nilai j = ", j)
+			}
+		}
+
+	*/
 }
